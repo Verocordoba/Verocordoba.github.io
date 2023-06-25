@@ -3,37 +3,43 @@
     font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.grid-container {
+.contenedor-grid {
   display: grid;
   gap: 32px;
 }
 
-.left-column {
+.fila-izq {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
 }
 
-.image-row {
+.fila-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
-.image-row img{
+.fila-img img{
   width: 100px;
   height: 100px;
   flex-shrink: 0;
 }
 
-.right-column {
+.fila-der {
   display: grid;
   gap: 16px;
+  padding: 2rem;
 }
 
-.right-column button {
+.fila-der button {
   max-width: 450px;
   min-width: 100px;
   background-color: #EE879B;
@@ -43,15 +49,11 @@
   border: none;
 }
 
-.right-column {
-  padding: 2rem;
-}
-
 #detalles_productos {
   padding: 2rem 0 2rem 0;
 }
 
-.row-layout {
+.producto-caract {
 display: flex;
 align-items: center;
 gap: 2rem;
@@ -249,7 +251,7 @@ footer{
 /* desktop*/
 @media screen and (min-width:993px){
 
-  .grid-container {
+  .contenedor-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
