@@ -1,0 +1,258 @@
+
+* {
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.grid-container {
+  display: grid;
+  gap: 32px;
+}
+
+.left-column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.image-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.image-row img{
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.right-column {
+  display: grid;
+  gap: 16px;
+}
+
+.right-column button {
+  max-width: 450px;
+  min-width: 100px;
+  background-color: #EE879B;
+  height: 48px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.right-column {
+  padding: 2rem;
+}
+
+#detalles_productos {
+  padding: 2rem 0 2rem 0;
+}
+
+.row-layout {
+display: flex;
+align-items: center;
+gap: 2rem;
+}
+
+.carousel-indicators .active {
+  background-color: #017D70;
+}
+
+.nav-link:hover {
+  color: #EE879B; 
+}
+
+.nav-link {
+  color: #017D70;
+}
+
+
+.icono {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 0.4rem;
+}
+
+.icono-1 {
+  background-image: url('../img/iconos/check.png');
+}
+
+.icono-2 {
+  background-image: url('../img/iconos/planta.png');
+}
+
+.icono-3 {
+  background-image: url('../img/iconos/comunidad.png');
+
+}
+
+.card-header{
+  background-color: #C0EAE5;
+}
+
+.col-md-4 {
+display: flex;
+}
+
+.card{
+    border-radius: 8px ;
+    flex: 1;
+}
+
+.card img{
+    border-radius: 8px 8px 0 0;
+}
+
+.btn {
+max-width: 450px;
+min-width: 200px;
+background-color: #EE879B;
+height: 48px;
+color: white;
+border-radius: 8px;
+border: none;
+}
+
+.btn:hover {
+background-color:#F1607D;
+}
+
+.btn:active {
+background-color: #F53B5F;
+}
+
+
+.col-md-4 {
+display: flex;
+}
+
+.card{
+    border-radius: 8px ;
+    flex: 1;
+}
+
+.card img{
+    border-radius: 8px 8px 0 0;
+}
+
+.btn {
+max-width: 450px;
+min-width: 200px;
+background-color: #EE879B;
+height: 48px;
+color: white;
+border-radius: 8px;
+border: none;
+}
+
+.btn:hover {
+background-color:#F1607D;
+}
+
+.btn:active {
+background-color: #F53B5F;
+}
+
+
+/*Productos de la tienda*/
+ #productos {
+ background-color:#017D70;
+  padding: 4rem 0 4rem 0;
+}
+
+
+/*Formulario*/
+
+#contacto{
+  background-color: #017D70;
+}
+
+.form-group input {
+background-color: transparent;
+border-color: white;
+color: white;
+max-width: 450px;
+min-width: 200px;
+}
+
+
+.form-group textarea {
+background-color: transparent;
+border-color: white;
+color: white;
+max-width: 450px;
+min-width: 200px;
+}
+
+/*Footer*/
+.redes {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 0.4rem;
+}
+
+.redes-1{
+          background-image: url('../img/iconos/behance.png');
+      }
+
+.redes-2{
+          background-image: url('../img/iconos/linkedin.png');
+      }
+
+footer{
+          background-image: url('../img/fondo-footer.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+
+/*acerca*/
+
+.icono {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 0.4rem;
+}
+
+.icono-1 {
+  background-image: url('../img/iconos/check.png');
+}
+
+.icono-2 {
+  background-image: url('../img/iconos/planta.png');
+}
+
+.icono-3 {
+  background-image: url('../img/iconos/comunidad.png');
+
+}
+
+.card-header{
+  background-color: #C0EAE5;
+}
+
+/*NavBar*/
+.nav-link:hover {
+  color: #EE879B; 
+}
+
+.nav-link {
+  color: #017D70;
+}
+
+
+/* desktop*/
+@media screen and (min-width:993px){
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+}
