@@ -96,13 +96,8 @@ gap: 2rem;
   background-color: #C0EAE5;
 }
 
-.col-md-4 {
-display: flex;
-}
-
 .card{
     border-radius: 8px ;
-    flex: 1;
 }
 
 .card img{
